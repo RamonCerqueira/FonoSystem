@@ -1,0 +1,98 @@
+# ============================
+# Sistema operacional
+# ============================
+# Arquivos de sistema do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ============================
+# Logs e arquivos temporários
+# ============================
+*.log
+*.tmp
+*.temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.pid
+*.seed
+*.swp
+
+# ============================
+# Node / Frontend
+# ============================
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+.env
+.env.local
+.env.*.local
+
+# ============================
+# React Native / Mobile
+# ============================
+android/
+ios/
+*.keystore
+*.jks
+*.iml
+.gradle/
+build/
+
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+ENV/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+*.sqlite3
+
+# ============================
+# C# / .NET
+# ============================
+bin/
+obj/
+*.user
+*.suo
+*.csproj.user
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# ============================
+# IDEs e editores
+# ============================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# ============================
+# Pastas específicas do projeto
+# ============================
+backend/   # Ignora se é submódulo ou pasta de outro repositório
+frontend-mobile/  # Ignora mobile se você quiser separar
+
+# ============================
+# Arquivos sensíveis
+# ============================
+CREDENCIAIS_TESTE.md
+.env
+*.pem
+*.key
+*.crt
