@@ -1,0 +1,396 @@
+/* Tema FonoApp - Cores específicas para fonoaudiologia */
+
+:root {
+  /* Cores primárias */
+  --fono-primary: #14b8a6;
+  --fono-primary-dark: #0d9488;
+  --fono-primary-light: #5eead4;
+  --fono-primary-bg: #f0fdfa;
+  
+  /* Cores secundárias */
+  --fono-secondary: #3b82f6;
+  --fono-secondary-dark: #2563eb;
+  --fono-secondary-light: #93c5fd;
+  --fono-secondary-bg: #eff6ff;
+  
+  /* Cores de categoria */
+  --fono-voice: #8b5cf6;
+  --fono-voice-bg: #f3e8ff;
+  --fono-speech: #06b6d4;
+  --fono-speech-bg: #ecfeff;
+  --fono-language: #10b981;
+  --fono-language-bg: #ecfdf5;
+  --fono-hearing: #f59e0b;
+  --fono-hearing-bg: #fffbeb;
+  --fono-motor: #ef4444;
+  --fono-motor-bg: #fef2f2;
+  
+  /* Cores neutras */
+  --fono-gray-50: #f8fafc;
+  --fono-gray-100: #f1f5f9;
+  --fono-gray-200: #e2e8f0;
+  --fono-gray-300: #cbd5e1;
+  --fono-gray-400: #94a3b8;
+  --fono-gray-500: #64748b;
+  --fono-gray-600: #475569;
+  --fono-gray-700: #334155;
+  --fono-gray-800: #1e293b;
+  --fono-gray-900: #0f172a;
+  
+  /* Estados */
+  --fono-success: #22c55e;
+  --fono-success-bg: #f0fdf4;
+  --fono-warning: #f59e0b;
+  --fono-warning-bg: #fffbeb;
+  --fono-error: #ef4444;
+  --fono-error-bg: #fef2f2;
+  --fono-info: #3b82f6;
+  --fono-info-bg: #eff6ff;
+}
+
+/* Componentes base */
+.fono-card {
+  background: white;
+  border: 1px solid var(--fono-gray-200);
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(20, 184, 166, 0.1);
+  transition: all 0.2s ease;
+}
+
+.fono-card:hover {
+  box-shadow: 0 4px 12px rgba(20, 184, 166, 0.15);
+  transform: translateY(-1px);
+}
+
+.fono-button-primary {
+  background: linear-gradient(135deg, var(--fono-primary) 0%, var(--fono-primary-dark) 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.fono-button-primary:hover {
+  background: linear-gradient(135deg, var(--fono-primary-dark) 0%, #0f766e 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(20, 184, 166, 0.3);
+}
+
+.fono-button-secondary {
+  background: var(--fono-secondary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.fono-button-secondary:hover {
+  background: var(--fono-secondary-dark);
+  transform: translateY(-1px);
+}
+
+/* Cards por tipo de usuário */
+.card-therapist {
+  border-left: 4px solid var(--fono-primary);
+  background: linear-gradient(135deg, white 0%, var(--fono-primary-bg) 100%);
+}
+
+.card-patient {
+  border-left: 4px solid var(--fono-secondary);
+  background: linear-gradient(135deg, white 0%, var(--fono-secondary-bg) 100%);
+}
+
+.card-exercise {
+  border-left: 4px solid var(--fono-success);
+  background: linear-gradient(135deg, white 0%, var(--fono-success-bg) 100%);
+}
+
+.card-appointment {
+  border-left: 4px solid var(--fono-warning);
+  background: linear-gradient(135deg, white 0%, var(--fono-warning-bg) 100%);
+}
+
+/* Cards por categoria de exercício */
+.exercise-voz {
+  border-left: 4px solid var(--fono-voice);
+  background: linear-gradient(135deg, white 0%, var(--fono-voice-bg) 100%);
+}
+
+.exercise-fala {
+  border-left: 4px solid var(--fono-speech);
+  background: linear-gradient(135deg, white 0%, var(--fono-speech-bg) 100%);
+}
+
+.exercise-linguagem {
+  border-left: 4px solid var(--fono-language);
+  background: linear-gradient(135deg, white 0%, var(--fono-language-bg) 100%);
+}
+
+.exercise-audicao {
+  border-left: 4px solid var(--fono-hearing);
+  background: linear-gradient(135deg, white 0%, var(--fono-hearing-bg) 100%);
+}
+
+.exercise-motricidade {
+  border-left: 4px solid var(--fono-motor);
+  background: linear-gradient(135deg, white 0%, var(--fono-motor-bg) 100%);
+}
+
+/* Badges por categoria */
+.badge-voice {
+  background: var(--fono-voice-bg);
+  color: var(--fono-voice);
+  border: 1px solid var(--fono-voice);
+}
+
+.badge-speech {
+  background: var(--fono-speech-bg);
+  color: var(--fono-speech);
+  border: 1px solid var(--fono-speech);
+}
+
+.badge-language {
+  background: var(--fono-language-bg);
+  color: var(--fono-language);
+  border: 1px solid var(--fono-language);
+}
+
+.badge-hearing {
+  background: var(--fono-hearing-bg);
+  color: var(--fono-hearing);
+  border: 1px solid var(--fono-hearing);
+}
+
+.badge-motor {
+  background: var(--fono-motor-bg);
+  color: var(--fono-motor);
+  border: 1px solid var(--fono-motor);
+}
+
+/* Ícones por categoria */
+.icon-primary {
+  color: var(--fono-primary);
+}
+
+.icon-secondary {
+  color: var(--fono-secondary);
+}
+
+.icon-voice {
+  color: var(--fono-voice);
+}
+
+.icon-speech {
+  color: var(--fono-speech);
+}
+
+.icon-language {
+  color: var(--fono-language);
+}
+
+.icon-hearing {
+  color: var(--fono-hearing);
+}
+
+.icon-motor {
+  color: var(--fono-motor);
+}
+
+/* Inputs e formulários */
+.fono-input {
+  border: 1px solid var(--fono-gray-300);
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.fono-input:focus {
+  outline: none;
+  border-color: var(--fono-primary);
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+
+.form-label {
+  color: var(--fono-gray-700);
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Tabelas */
+.table-fono {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.table-fono th {
+  background: var(--fono-primary-bg);
+  color: var(--fono-primary-dark);
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 14px;
+  border-bottom: 1px solid var(--fono-gray-200);
+}
+
+.table-fono td {
+  padding: 16px;
+  border-bottom: 1px solid var(--fono-gray-100);
+  font-size: 14px;
+  color: var(--fono-gray-700);
+}
+
+.table-fono tr:hover {
+  background: var(--fono-gray-50);
+}
+
+/* Status badges */
+.status-completed {
+  background: var(--fono-success-bg);
+  color: var(--fono-success);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-pending {
+  background: var(--fono-warning-bg);
+  color: var(--fono-warning);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-cancelled {
+  background: var(--fono-error-bg);
+  color: var(--fono-error);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Animações suaves */
+.smooth-transition {
+  transition: all 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(20, 184, 166, 0.15);
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Skeleton loading */
+.fono-skeleton {
+  background: linear-gradient(90deg, var(--fono-gray-200) 25%, var(--fono-gray-100) 50%, var(--fono-gray-200) 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .fono-card {
+    margin: 8px 0;
+  }
+  
+  .table-fono {
+    font-size: 12px;
+  }
+  
+  .table-fono th,
+  .table-fono td {
+    padding: 12px 8px;
+  }
+}
+
+/* Sidebar específica */
+.sidebar-fono {
+  background: linear-gradient(180deg, var(--fono-primary) 0%, var(--fono-primary-dark) 100%);
+  color: white;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  margin: 4px 0;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.nav-item:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  text-decoration: none;
+}
+
+.nav-item.active {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-weight: 600;
+}
+
+/* Cores de texto */
+.text-primary {
+  color: var(--fono-primary-dark);
+}
+
+.text-secondary {
+  color: var(--fono-secondary);
+}
+
+.text-success {
+  color: var(--fono-success);
+}
+
+.text-warning {
+  color: var(--fono-warning);
+}
+
+.text-error {
+  color: var(--fono-error);
+}
+
