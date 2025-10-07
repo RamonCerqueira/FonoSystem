@@ -160,6 +160,6 @@ Após a demonstração, podemos:
 
 ---
 
-**Desenvolvido por Manus AI** 🤖  
+**Desenvolvido por Ramon Cerqueira** 🤖  
 *Sistema completo de fonoaudiologia com foco na experiência do usuário*
 

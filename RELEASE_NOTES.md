@@ -183,6 +183,6 @@ npx expo start
 
 O FonoApp está totalmente funcional para demonstrações e pode ser facilmente adaptado para produção. Todas as funcionalidades principais estão implementadas com foco na experiência do usuário e nas necessidades específicas da fonoaudiologia.
 
-**Desenvolvido por Manus AI** 🤖  
+**Desenvolvido por Ramon Cerqueira** 🤖  
 *Sistema especializado em fonoaudiologia com tecnologia de ponta*
 

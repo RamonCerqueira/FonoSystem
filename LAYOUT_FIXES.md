@@ -196,6 +196,6 @@ transition: transform 0.3s ease-in-out
 
 O FonoApp agora possui um **layout profissional**, **tema consistente** e **experiência de usuário** de alta qualidade, específica para o segmento de fonoaudiologia.
 
-**Desenvolvido por Manus AI** 🤖  
+**Desenvolvido por Ramon Cerqueira** 🤖  
 *Layout e tema otimizados para fonoaudiologia*
 

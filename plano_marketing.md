@@ -1,7 +1,7 @@
 # Plano de Marketing - FonoApp
 ## Plataforma Digital para Fonoaudiologia
 
-**Autor:** Manus AI  
+**Autor:** Ramon Cerqueira  
 **Data:** Janeiro 2025  
 **Versão:** 1.0
 

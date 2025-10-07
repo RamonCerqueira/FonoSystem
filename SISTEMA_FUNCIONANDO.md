@@ -239,7 +239,7 @@ npm run dev
 
 **Status:** ✅ **PRONTO PARA USO E DEMONSTRAÇÃO**
 
-**Desenvolvido por Manus AI** 🤖  
+**Desenvolvido por Ramon Cerqueira** 🤖  
 *Sistema completo e funcional para fonoaudiologia*
 
 ---

@@ -1,7 +1,7 @@
 # Plano de Vendas - FonoApp
 ## Estratégias para Acelerar a Adoção e Receita
 
-**Autor:** Manus AI  
+**Autor:** Ramon Cerqueira  
 **Data:** Janeiro 2025  
 **Versão:** 1.0
 
